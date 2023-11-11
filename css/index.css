@@ -1,0 +1,99 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #5950f6;
+    font-family: sans-serif;
+    height: 100vh;
+    width: 100%;
+    font-family: Verdana, Arial, serif;
+}
+
+/* Everything in nav bar */
+nav{
+    /*background-color: dodgerblue;*/
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#ul {
+margin-right: 50px;
+}
+
+h1 {
+    padding-top: 30px;
+}
+
+ul > li {
+    padding-top: 25px;
+    list-style-type: none;
+    display: inline-block;
+}
+
+li > a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    padding-left: 10px;
+}
+
+li > a:hover {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    border-bottom: white;
+    border-bottom-style: solid;
+    padding-bottom: 10px;
+}
+
+#logoName {
+    color: white;
+}
+
+/* Everything after nav bar */
+
+.container{
+    display: grid;
+    width: 100%;
+    grid-template-rows: 300px 100px 300px 200px;
+    grid-template-columns: 50fr 50fr;
+    overflow: hidden;
+}
+
+.box-one{
+    overflow: hidden;
+    grid-column: 1/span2;
+
+}
+
+.box-two {
+    background-color: white;
+    grid-column: 1/span2;
+    grid-row: 3;
+
+}
+
+div.box-one > img {
+    width: 100%
+}
+
+#ring {
+    width: 50%;
+    height: 100%;
+
+}
+
+.imageNextToPic {
+    float: right;
+}
+
+#text {
+    padding-top: 50px;
+}
