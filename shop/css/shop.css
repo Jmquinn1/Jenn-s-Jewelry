@@ -23,7 +23,7 @@ nav{
 }
 
 #ul {
-margin-right: 50px;
+    margin-right: 50px;
 }
 
 h1 {
@@ -64,43 +64,27 @@ li > a:hover {
     border: none;
 }
 
-/* Everything after nav bar */
+/* End of nav bar */
 
-.container{
-    display: grid;
+.container {
+    /*border: 3px solid lightgray;*/
+    display: flex;
     width: 100%;
-    grid-template-rows: 300px 1px 300px 200px;
-    grid-template-columns: 50fr 50fr;
-    overflow: hidden;
-}
-
-.box-one{
-    overflow: hidden;
-    grid-column: 1/span2;
-
-}
-
-.box-two {
-    background-color: white;
-    grid-column: 1/span2;
-    grid-row: 3;
-
-}
-
-div.box-one > img {
-    width: 100%
-}
-
-#ring {
-    width: 50%;
     height: 100%;
-
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
-.imageNextToPic {
-    float: right;
+.box{
+    width: 15rem;
+    overflow: hidden;
+    height: 20rem;
+    background-color: gold;
+    margin: 1rem;
 }
 
-#text {
-    padding-top: 50px;
+div.box > img {
+    width: 15rem;
+    height: 20rem;
 }
+
