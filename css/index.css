@@ -70,7 +70,7 @@ li > a:hover {
 .container{
     display: grid;
     width: 100%;
-    grid-template-rows: 300px 1px 300px 200px 200px;
+    grid-template-rows: 300px 1px 300px 200px 300px;
     grid-template-columns: 50fr 50fr;
     overflow: hidden;
 }
@@ -113,4 +113,53 @@ div.box-one > img {
 
 #text {
     padding-top: 50px;
+}
+
+.LogoScale:hover {
+     transform: scale(1.5);
+ }
+#socialLink {
+    font-size: 24px;
+}
+
+a.position {
+    text-decoration: none;
+}
+
+.position2 {
+    text-decoration: none;
+    border-bottom: none;
+}
+
+.position:hover {
+    border-bottom: none;
+}
+
+.position2:hover {
+    border-bottom: none;
+}
+
+#instagramLogo {
+    width: 32px;
+    transition: all .2s ease-in-out;
+}
+
+#facebook {
+    width: 32px;
+    transition: all .2s ease-in-out;
+    vertical-align: top;
+}
+
+#footerUL{
+    position: relative;
+    left: 75%;
+}
+
+#footerUL > li {
+    display: block;
+}
+
+#userName {
+    color: black;
+    padding-left: 1rem;
 }
