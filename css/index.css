@@ -159,7 +159,7 @@ a.position {
     display: block;
 }
 
-#userName {
+.userName {
     color: black;
     padding-left: 1rem;
 }
